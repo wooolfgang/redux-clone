@@ -1,0 +1,29 @@
+{
+  "name": "redux-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev:1": "parcel examples/example-1/index.html",
+    "dev:2": "parcel examples/example-2/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wooolfgang/redux-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wooolfgang/redux-clone/issues"
+  },
+  "homepage": "https://github.com/wooolfgang/redux-clone#readme",
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0",
+    "parcel-bundler": "^1.11.0"
+  }
+}
