@@ -40,6 +40,8 @@ window.onload = () => {
 
   store.subscribe(render);
 
+  render();
+
   addBtn.addEventListener('click', () => {
     store.dispatch({ type: 'ADD_USER', payload: userInput.value });
     store.dispatch({ type: 'INCREMENT' });
